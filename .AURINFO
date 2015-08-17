@@ -1,0 +1,20 @@
+pkgbase = pypy-pytools
+	pkgdesc = A collection of tools for Python
+	pkgver = 2014.3
+	pkgrel = 2
+	url = http://mathema.tician.de/software/pytools
+	arch = any
+	license = MIT
+	makedepends = pypy-setuptools
+	makedepends = pypy3-setuptools
+	source = http://pypi.python.org/packages/source/p/pytools/pytools-2014.3.tar.gz
+
+pkgname = pypy3-pytools
+	depends = pypy3>=2.3
+	depends = pypy3<2.4
+	depends = pypy3-decorator
+
+pkgname = pypy-pytools
+	depends = pypy
+	depends = pypy-decorator
+
